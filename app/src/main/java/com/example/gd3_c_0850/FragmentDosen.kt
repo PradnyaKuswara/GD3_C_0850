@@ -22,7 +22,7 @@ class FragmentDosen : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val layoutManager = LinearLayoutManager(context)
-        val adapter : RVDosenAdapter = RVDosenAdapter(Dosen.listofDosen.)
+        val adapter : RVDosenAdapter = RVDosenAdapter(Dosen.listofDosen)
 
         val rvDosen : RecyclerView = view.findViewById(R.id.rv_dosen)
 
